@@ -1,0 +1,181 @@
+Review 1
+Course: CET2455
+Date: Apr 27, 2026
+Quality: 5.0
+Difficulty: 4.0
+I had him for another class during my first year, and at the time I thought he would be difficult to work with. I was wrong. His classes were always full, and everyone stayed engaged. He followed his syllabus closely, and the exams were based entirely on the topics he covered. I ended the course with a solid understanding of the material.
+
+Review 2
+Course: EMT1130
+Date: Oct 17, 2024
+Quality: 2.0
+Difficulty: 4.0
+He doesn't really do much for the class and the Technician is the one who helps the students. He will take a quick look at your work and either call it garbage or okay. All he does is sit at the front of the room and stay on his phone. Sometimes funny.
+
+Review 3
+Course: CET3525
+Date: May 14, 2024
+Quality: 3.0
+Difficulty: 4.0
+The professor feels unorganized. Assignments, tests, and labs are submitted by email, and students may not know how they are doing until late in the semester. He made it clear he does not enjoy teaching online classes.
+
+Review 4
+Course: CET4952
+Date: Mar 31, 2023
+Quality: 5.0
+Difficulty: 2.0
+I was afraid of robotics because I knew nothing about robots. This professor eased everyone into it. He is communicative, clear, inspirational, and genuinely enjoys teaching this course.
+
+Review 5
+Course: EMT1130
+Date: Jan 26, 2022
+Quality: 4.0
+Difficulty: 1.0
+The topics were explained clearly. The class involved building a project box. Students needed to practice independently, but he demonstrated useful techniques.
+
+Review 6
+Course: EMT2320
+Date: Dec 6, 2021
+Quality: 1.0
+Difficulty: 3.0
+Refuses to put certain objectives in writing and often says, "This is college." Does not always follow the syllabus and deducts points for using alternative methods.
+
+Review 7
+Course: EMT2320
+Date: Nov 28, 2021
+Quality: 1.0
+Difficulty: 3.0
+Students were expected to teach themselves by reading PDFs. Homework often lacked sufficient information, and the professor appeared indecisive.
+
+Review 8
+Course: EMT1130
+Date: May 23, 2021
+Quality: 1.0
+Difficulty: 4.0
+The professor admitted he did not enjoy teaching the course. Students felt he showed little interest in the class or subject matter.
+
+Review 9
+Course: EMT1130
+Date: Jan 18, 2021
+Quality: 1.0
+Difficulty: 1.0
+Students had to rely on reading to learn. Many struggled with building the digital trainer and felt unsupported.
+
+Review 10
+Course: EMT1130
+Date: Jan 18, 2021
+Quality: 1.0
+Difficulty: 1.0
+The semester started well, but students later felt he was not serious about teaching. Many students received incompletes.
+
+Review 11
+Course: E140
+Date: Apr 7, 2020
+Quality: 1.0
+Difficulty: 4.0
+Poor public speaker and uninterested in students. Teaches as though everyone already knows the material and is unwilling to accept suggestions.
+
+Review 12
+Course: EMT1250
+Date: May 30, 2018
+Quality: 5.0
+Difficulty: 4.0
+An amazing teacher.
+
+Review 13
+Course: CET4952
+Date: Dec 9, 2016
+Quality: 5.0
+Difficulty: 1.0
+The course was interesting and practical. Real-life experiences were incorporated into lectures, and the material could be applied immediately.
+
+Review 14
+Course: E144
+Date: Mar 19, 2016
+Quality: 4.5
+Difficulty: 3.0
+One of the good professors at City Tech. Sweet, lenient, and sometimes funny. Lectures are interesting and tests are fair.
+
+Review 15
+Course: EMT1250L
+Date: Jan 23, 2015
+Quality: 5.0
+Difficulty: 3.0
+Very helpful in lab sessions and relaxed. Expects lab reports but supports students throughout the course.
+
+Review 16
+Course: E150
+Date: Dec 29, 2014
+Quality: 1.0
+Difficulty: 5.0
+Does not care about students, is unprepared for class, and does not offer extra credit.
+
+Review 17
+Course: EMT1250
+Date: Oct 9, 2014
+Quality: 5.0
+Difficulty: 2.0
+Great professor with strong teaching skills. Students who put in effort will benefit from the course.
+
+Review 18
+Course: EMT1130
+Date: May 4, 2014
+Quality: 5.0
+Difficulty: 1.0
+Excellent professor. Students wished they could take him for all of their classes.
+
+Review 19
+Course: EMT1250
+Date: Jan 16, 2014
+Quality: 4.5
+Difficulty: 2.0
+Professional and helpful. Students appreciated his support and wanted to take him again.
+
+Review 20
+Course: EMT111
+Date: Dec 12, 2012
+Quality: 4.5
+Difficulty: 4.0
+Makes the material understandable. Students can ask questions during office hours, and he explains concepts clearly.
+
+Review 21
+Course: EMT1220
+Date: Oct 24, 2011
+Quality: 4.5
+Difficulty: 1.0
+Teaches and explains well. Extremely helpful and a fair grader.
+
+Review 22
+Course: EMT4312
+Date: Oct 16, 2011
+Quality: 5.0
+Difficulty: 2.0
+Clear instructor who uses technology effectively. Students found him fun and hoped to take him again.
+
+Review 23
+Course: EMT1130
+Date: Dec 27, 2010
+Quality: 1.5
+Difficulty: 2.0
+Barely taught and spent too much time on two phones.
+
+Review 24
+Course: BIO1101
+Date: Sep 1, 2010
+Quality: 2.5
+Difficulty: 2.0
+Students mostly learned from slides and textbooks. Good grades were possible with self-study.
+
+Review 25
+Course: EMTLA1150
+Date: May 28, 2010
+Quality: 4.0
+Difficulty: 2.0
+Nice professor, but spent much of the lab session on his phone. Grading was fair.
+
+Review 26
+Course: EMT1130
+Date: May 24, 2010
+Quality: 2.5
+Difficulty: 2.0
+Disorganized and frequently distracted by his phone. Students felt he was more dedicated to his phone than to teaching.

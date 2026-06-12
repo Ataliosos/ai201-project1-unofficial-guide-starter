@@ -1,0 +1,181 @@
+Review 1
+Course: ENG1101
+Date: Dec 28, 2024
+Quality: 5.0
+Difficulty: 2.0
+Amazing professor. Displays a nice mix of personality within lectures and encourages class discussions. Lenient with grading, accessible outside class, and offers extra credit opportunities.
+
+Review 2
+Course: ENG1121
+Date: Nov 27, 2023
+Quality: 5.0
+Difficulty: 1.0
+Discussion-based class and an easy A.
+
+Review 3
+Course: ENG1121
+Date: Aug 11, 2023
+Quality: 4.0
+Difficulty: 3.0
+Nice teacher who emphasizes attendance. Uses videos and discussions in class. Punctuation quizzes are given, and the class is generally easy to pass.
+
+Review 4
+Course: ENG1121
+Date: Oct 18, 2022
+Quality: 1.0
+Difficulty: 1.0
+Students felt she did not teach enough and assigned many small assignments. Attendance was strict, and students needing writing help were referred to the Writing Center.
+
+Review 5
+Course: ENG1101
+Date: Jan 4, 2021
+Quality: 5.0
+Difficulty: 2.0
+Very supportive and available outside office hours. Assignments helped prepare students for the final portfolio. Participation and completing work lead to success.
+
+Review 6
+Course: ENG1101
+Date: Dec 12, 2020
+Quality: 5.0
+Difficulty: 1.0
+Knowledgeable professor with a kind personality.
+
+Review 7
+Course: ENG1121
+Date: Aug 10, 2020
+Quality: 5.0
+Difficulty: 4.0
+Amazing teacher who listens to students. Essays and homework improve writing and grammar skills.
+
+Review 8
+Course: ENG1121
+Date: May 26, 2020
+Quality: 5.0
+Difficulty: 2.0
+Uses a final portfolio instead of a final exam. Students who complete their work can earn an easy A.
+
+Review 9
+Course: D601
+Date: May 28, 2019
+Quality: 2.0
+Difficulty: 3.0
+Cool professor, although some students found the class confusing and assignment expectations unclear.
+
+Review 10
+Course: ENG1121
+Date: May 28, 2019
+Quality: 3.0
+Difficulty: 4.0
+Nice professor who uses discussions and music in class. Homework can be overwhelming.
+
+Review 11
+Course: ENG1121
+Date: May 25, 2019
+Quality: 5.0
+Difficulty: 1.0
+Her teaching style made students enjoy English. Highly recommended.
+
+Review 12
+Course: ENG1121
+Date: May 4, 2019
+Quality: 5.0
+Difficulty: 2.0
+Interesting class and easy to adjust to. Good grades require some effort.
+
+Review 13
+Course: ENG1101
+Date: Dec 20, 2018
+Quality: 5.0
+Difficulty: 2.0
+Made students genuinely enjoy English class.
+
+Review 14
+Course: ENG1101
+Date: Aug 1, 2017
+Quality: 5.0
+Difficulty: 2.0
+Gets everyone involved and treats students as equals rather than authority figures.
+
+Review 15
+Course: ENG1101
+Date: May 26, 2017
+Quality: 5.0
+Difficulty: 3.0
+Awesome professor whose lectures are enjoyable and engaging.
+
+Review 16
+Course: ENG1121
+Date: May 25, 2017
+Quality: 5.0
+Difficulty: 3.0
+Assignments are fun, lectures are interactive, and feedback improves students' writing skills.
+
+Review 17
+Course: ENG1101
+Date: May 25, 2017
+Quality: 5.0
+Difficulty: 2.0
+Best English professor ever. Hilarious lectures and caring attitude.
+
+Review 18
+Course: ENG1101
+Date: Apr 29, 2017
+Quality: 5.0
+Difficulty: 3.0
+Encourages students to think outside the box and provides support throughout the semester.
+
+Review 19
+Course: C376
+Date: Jan 26, 2017
+Quality: 5.0
+Difficulty: 1.0
+Funny professor who gives excellent feedback and encourages students to improve.
+
+Review 20
+Course: D376
+Date: Dec 8, 2016
+Quality: 5.0
+Difficulty: 1.0
+Provides great feedback, listens to students, and offers help both inside and outside class.
+
+Review 21
+Course: ENG992R
+Date: Nov 10, 2016
+Quality: 5.0
+Difficulty: 2.0
+Helped students pass the CUNY placement exam. Fun and helpful class.
+
+Review 22
+Course: ENG1121
+Date: Sep 24, 2016
+Quality: 3.0
+Difficulty: 3.0
+Funny and relaxed professor. Homework is easy, and students become comfortable participating.
+
+Review 23
+Course: ENG1101
+Date: Jun 30, 2016
+Quality: 5.0
+Difficulty: 1.0
+Very supportive of non-native English speakers. Easy topics, flexible grading, and high marks possible.
+
+Review 24
+Course: ENG1101
+Date: Mar 3, 2016
+Quality: 5.0
+Difficulty: 1.0
+Makes students feel comfortable and respected. Highly recommended.
+
+Review 25
+Course: ENG1121
+Date: Feb 16, 2016
+Quality: 5.0
+Difficulty: 1.0
+Interesting lessons and motivational teaching style.
+
+Review 26
+Course: ENG1101
+Date: Dec 8, 2015
+Quality: 5.0
+Difficulty: 2.0
+Professional writer who shares wisdom and helps students become stronger writers.

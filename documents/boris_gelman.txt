@@ -1,0 +1,139 @@
+Review 1
+Course: PHYS2603
+Date: Dec 17, 2025
+Quality: 5.0
+Difficulty: 1.0
+This professor was great. He answered all questions and gave clear feedback. Although the lectures sometimes felt rushed, the weekly lab reports and homework were easy to complete.
+
+Review 2
+Course: PHYS2603
+Date: May 23, 2025
+Quality: 5.0
+Difficulty: 1.0
+Honestly the easiest A I have ever received. The professor is laid back and wants students to get an A. He also gave an easy take-home midterm.
+
+Review 3
+Course: PHY1441
+Date: Jan 27, 2025
+Quality: 5.0
+Difficulty: 3.0
+He's super nice and understanding. He helped with extra credit opportunities and stayed after class to help students finish missing work.
+
+Review 4
+Course: PHYS1441
+Date: Dec 23, 2021
+Quality: 5.0
+Difficulty: 1.0
+One of a kind. He explains everything in detail and gives many opportunities to succeed. He is lenient, fair, and goes beyond to help students.
+
+Review 5
+Course: PHY1441
+Date: Nov 23, 2021
+Quality: 5.0
+Difficulty: 1.0
+Amazing professor. Very understanding and generous when it comes to grading.
+
+Review 6
+Course: PHYS1433
+Date: Sep 3, 2020
+Quality: 5.0
+Difficulty: 4.0
+A very kind professor. Students who work hard and follow instructions will succeed. Extra credit opportunities help improve grades.
+
+Review 7
+Course: PHY2603
+Date: May 30, 2020
+Quality: 5.0
+Difficulty: 3.0
+Great professor. During the COVID pandemic, he was very empathetic toward students.
+
+Review 8
+Course: PHY1443
+Date: Jan 29, 2020
+Quality: 5.0
+Difficulty: 1.0
+Easy professor who genuinely wants students to pass and understand physics. The grading policy is straightforward.
+
+Review 9
+Course: PHYS1434
+Date: May 29, 2019
+Quality: 5.0
+Difficulty: 3.0
+One of the best professors. He made physics more manageable and impossible to fail if students put in effort. Very caring.
+
+Review 10
+Course: PHYS1433
+Date: Jan 5, 2019
+Quality: 5.0
+Difficulty: 1.0
+Best professor I ever had. He makes everything seem simple and easy to understand.
+
+Review 11
+Course: PHYS1433
+Date: Dec 30, 2018
+Quality: 5.0
+Difficulty: 1.0
+Best professor ever. An easy A and very caring.
+
+Review 12
+Course: PHYS2603
+Date: Dec 6, 2018
+Quality: 5.0
+Difficulty: 2.0
+Very funny professor who explains concepts well. Labs and homework are manageable. Easy take-home midterm and multiple-choice final.
+
+Review 13
+Course: PHYS1441
+Date: Dec 22, 2017
+Quality: 5.0
+Difficulty: 3.0
+Awesome professor. Funny and engaging. Tests are multiple choice and homework provides extra credit opportunities.
+
+Review 14
+Course: PHYS1433
+Date: Jun 2, 2016
+Quality: 4.0
+Difficulty: 3.0
+Good professor. Lectures sometimes move slowly, but grading is clear. Homework can raise grades significantly through extra credit.
+
+Review 15
+Course: PHYS1433
+Date: May 31, 2016
+Quality: 4.0
+Difficulty: 2.0
+Good professor. Tests are multiple choice and relatively easy. Reviewing homework problems in class helps understanding.
+
+Review 16
+Course: PHY1443
+Date: Jan 1, 2016
+Quality: 4.5
+Difficulty: 1.0
+Funny professor who makes science easier for students. Helped students achieve strong grades.
+
+Review 17
+Course: PHY1443
+Date: Dec 19, 2015
+Quality: 2.5
+Difficulty: 1.0
+Easy class with multiple-choice tests. However, students planning to continue studying physics may not feel fully prepared. Lectures can be long and difficult to stay attentive through.
+
+Review 18
+Course: PHY1443
+Date: Dec 14, 2015
+Quality: 5.0
+Difficulty: 1.0
+Tests are easy and it is very difficult to fail the class.
+
+Review 19
+Course: PHY1443
+Date: Dec 14, 2015
+Quality: 5.0
+Difficulty: 1.0
+Very inspiring and motivational professor. Students would gladly take another class with him.
+
+Review 20
+Course: PHY1443
+Date: Dec 14, 2015
+Quality: 4.5
+Difficulty: 1.0
+Dr. Gelman is good at what he does. He jokes around in class and is an easy grader.

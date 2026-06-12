@@ -1,0 +1,153 @@
+Review 1
+Course: PHY1441
+Date: Mar 24, 2025
+Quality: 1.0
+Difficulty: 5.0
+Whenever lecturing he just does not care whether or not it's clear. No one understands what he is saying, and if you ask for clarification he tells you to look at the textbook in a condescending way. He often insults students.
+
+Review 2
+Course: PHYS1442
+Date: Dec 22, 2018
+Quality: 5.0
+Difficulty: 2.0
+One of the better Physics instructors at this school. Definitely recommend this instructor for this course. Many opportunities for extra credit.
+
+Review 3
+Course: PHYS1441
+Date: Jul 11, 2018
+Quality: 4.0
+Difficulty: 4.0
+Excellent lab professor. Lecture problems are critical for passing exams. Gives in-class problems for extra credit. Not for students who want an easy pass.
+
+Review 4
+Course: PHYS1441
+Date: Jul 9, 2018
+Quality: 2.0
+Difficulty: 5.0
+The summer course was very stressful. Questions about exams were often answered with jokes or ignored. Concepts were taught without enough examples.
+
+Review 5
+Course: PHYS1441
+Date: Jun 20, 2018
+Quality: 2.0
+Difficulty: 4.0
+I learned a lot in his class, but he can be argumentative and quick to argue. Best taken during the fall or spring semesters.
+
+Review 6
+Course: PHYSICS1442
+Date: Apr 30, 2018
+Quality: 4.0
+Difficulty: 3.0
+Good lab professor.
+
+Review 7
+Course: PHY1441
+Date: May 24, 2016
+Quality: 3.5
+Difficulty: 1.0
+Good lab teacher.
+
+Review 8
+Course: PHY1434
+Date: Jan 1, 2016
+Quality: 1.5
+Difficulty: 3.0
+I barely understood a single topic he taught. More than half of the class dropped the course.
+
+Review 9
+Course: PHY1434
+Date: Jul 12, 2012
+Quality: 1.5
+Difficulty: 4.0
+He is knowledgeable but arrogant and combative. Many students found him difficult to learn from.
+
+Review 10
+Course: PHYS1434
+Date: May 20, 2012
+Quality: 1.0
+Difficulty: 5.0
+Horrible professor.
+
+Review 11
+Course: PHY101
+Date: Nov 23, 2009
+Quality: 1.0
+Difficulty: 4.0
+Jumps from topic to topic without sequential logic. Difficult to understand and does not teach effectively.
+
+Review 12
+Course: PHYS401
+Date: Sep 29, 2008
+Quality: 5.0
+Difficulty: 3.0
+Great professor. Explains concepts well and makes every class enjoyable.
+
+Review 13
+Course: SC441
+Date: Jul 10, 2007
+Quality: 1.5
+Difficulty: 5.0
+Gives very difficult exams and can be degrading toward students. I learned enough to answer questions from other physics classes.
+
+Review 14
+Course: SC433
+Date: Jun 14, 2007
+Quality: 5.0
+Difficulty: 4.0
+Great teacher if you want to learn. Gives extra credit for presenting homework solutions. Read the book and review lectures to succeed.
+
+Review 15
+Course: SC443
+Date: May 8, 2007
+Quality: 1.0
+Difficulty: 5.0
+Terrible in both lecture and lab. Always finds mistakes and rarely gives full credit.
+
+Review 16
+Course: SC441
+Date: Jan 14, 2007
+Quality: 1.0
+Difficulty: 3.0
+Loves physics, but ego and arrogance hinder his teaching ability. One of the worst professors I have had.
+
+Review 17
+Course: SC441
+Date: Nov 16, 2006
+Quality: 4.5
+Difficulty: 4.0
+Cool teacher, but tough if you don't keep up with homework.
+
+Review 18
+Course: SC433
+Date: Jun 30, 2006
+Quality: 3.0
+Difficulty: 3.0
+He has an accent but explains things when he wants to. Gives extra credit occasionally.
+
+Review 19
+Course: SC433
+Date: Feb 6, 2006
+Quality: 5.0
+Difficulty: 4.0
+Covers a lot of material, but explains theories and formulas clearly. Will help students who show genuine interest.
+
+Review 20
+Course: SC433
+Date: Jan 30, 2006
+Quality: 1.0
+Difficulty: 5.0
+One of the worst professors. Moves through too much material and covers the entire syllabus too quickly.
+
+Review 21
+Course: PHYSICS1
+Date: Jan 30, 2006
+Quality: 1.5
+Difficulty: 4.0
+More interested in showing off his knowledge than teaching. Grumpy and unclear.
+
+Review 22
+Course: SC441
+Date: Dec 7, 2005
+Quality: 1.0
+Difficulty: 5.0
+Heavy accent and difficult to understand. Often yells at students asking questions and rarely gives full credit in lab.

@@ -1,0 +1,125 @@
+Review 1
+Course: ECON1101
+Date: May 26, 2026
+Quality: 5.0
+Difficulty: 1.0
+Amazing professor. Her grading is simple, she penalizes very little for late work, and she is very caring. Exams are multiple choice, and she tries to make lectures fun.
+
+Review 2
+Course: ECON1101
+Date: May 26, 2026
+Quality: 5.0
+Difficulty: 1.0
+Amazing professor. She is caring, gives easy exams, and students would gladly take her again.
+
+Review 3
+Course: ECON1101
+Date: Jan 25, 2026
+Quality: 5.0
+Difficulty: 1.0
+She explains everything slowly and clearly. Homework deadlines are generous, and she is polite and humorous.
+
+Review 4
+Course: ECON1101
+Date: Jan 25, 2026
+Quality: 5.0
+Difficulty: 1.0
+Instructions are always clear, homework is easy, and exams are straightforward. She keeps the class entertaining while teaching.
+
+Review 5
+Course: ECON1101
+Date: Jan 30, 2025
+Quality: 5.0
+Difficulty: 1.0
+Great professor who genuinely wants everyone to pass.
+
+Review 6
+Course: ECON1101
+Date: Dec 26, 2024
+Quality: 5.0
+Difficulty: 3.0
+Very nice professor. Uses the textbook often and provides quizzes, a midterm, and a final. Homework and discussion boards are manageable.
+
+Review 7
+Course: ECON1101
+Date: Mar 28, 2024
+Quality: 5.0
+Difficulty: 1.0
+Easygoing and always smiling. She makes sure everyone understands the lessons and assignments are simple.
+
+Review 8
+Course: ECON1101
+Date: Aug 11, 2023
+Quality: 5.0
+Difficulty: 1.0
+Amazing professor who takes time to ensure students understand the material. Makes learning enjoyable.
+
+Review 9
+Course: ECON1101
+Date: May 27, 2023
+Quality: 5.0
+Difficulty: 1.0
+Very understanding professor. Students who put in the effort can easily earn an A.
+
+Review 10
+Course: ECON1101
+Date: Mar 30, 2023
+Quality: 5.0
+Difficulty: 2.0
+Kind and caring. Gives makeup exams and quizzes, and homework is easy.
+
+Review 11
+Course: ECON1101
+Date: Dec 30, 2022
+Quality: 5.0
+Difficulty: 2.0
+Provides many chances to complete work and understands students' situations.
+
+Review 12
+Course: ECON1101
+Date: Dec 15, 2022
+Quality: 5.0
+Difficulty: 2.0
+Understanding and treats students like people. Lessons prepare students well for tests and quizzes.
+
+Review 13
+Course: ECON1101
+Date: Nov 20, 2022
+Quality: 5.0
+Difficulty: 2.0
+Very flexible and kind. Students who do the work will succeed.
+
+Review 14
+Course: ECON211
+Date: Jun 2, 2022
+Quality: 4.0
+Difficulty: 4.0
+Weekly discussion boards, two tests, and one paper. Students should study because there is little time during tests.
+
+Review 15
+Course: ECON1101
+Date: Feb 6, 2022
+Quality: 5.0
+Difficulty: 1.0
+Very sweet professor. Everything is clear and easy to follow.
+
+Review 16
+Course: ECON211
+Date: May 29, 2019
+Quality: 5.0
+Difficulty: 1.0
+Provides textbook PDFs and gives helpful feedback. Weekly assignments and discussions are enough to earn an A.
+
+Review 17
+Course: ECON1101
+Date: Jan 29, 2019
+Quality: 5.0
+Difficulty: 1.0
+Super friendly and understanding. She explains concepts repeatedly until everyone understands.
+
+Review 18
+Course: ECON1101
+Date: Dec 31, 2018
+Quality: 5.0
+Difficulty: 1.0
+Very nice professor who clearly explains every chapter. Reviews material before quizzes, midterms, and finals.
