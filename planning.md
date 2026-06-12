@@ -9,114 +9,78 @@
 
 ## Domain
 
-<!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
+My domain is the unofficial guide to CUNY City Tech professors. This system will help students search student-generated reviews about professors, including teaching style, grading, exam difficulty, homework, attendance, extra credit, and how helpful the professor is.
+
+This knowledge is valuable because official City Tech pages only show basic course and professor information. They do not show what students actually experience in class, so students usually rely on Rate My Professors, classmates, and unofficial advice.
 
 ---
 
 ## Documents
 
-<!-- List your specific sources: URLs, subreddit names, forum threads, or file descriptions.
-     Aim for at least 10 sources that together cover different subtopics or perspectives within your domain. -->
-
 | # | Source | Description | URL or location |
 |---|--------|-------------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
-
----
+| 1 | Rate My Professors | Student reviews for Vaneet Singh | documents/vaneet_singh.txt |
+| 2 | Rate My Professors | Student reviews for Jared Day | documents/jared_day.txt |
+| 3 | Rate My Professors | Student reviews for Farrukh Zia | documents/farrukh_zia.txt |
+| 4 | Rate My Professors | Student reviews for Boris Gelman | documents/boris_gelman.txt |
+| 5 | Rate My Professors | Student reviews for Roman Kezerashvili | documents roman_kezerashvili.txt |
+| 6 | Rate My Professors | Student reviews for Mohammed Islam | documents/mohammed_islam.txt |
+| 7 | Rate My Professors | Student reviews for Ahmed Hassebo | documents/ahmed_hassebo.txt |
+| 8 | Rate My Professors | Student reviews for Jeffery Kroll | documents/jeffery_kroll.txt |
+| 9 | Rate My Professors | Student reviews for Suela Aalsberg | documents/suela_aalsberg.txt |
+| 10 | Rate My Professors | Student reviews for Sarah Schmerler | documents/sarah_schmerler.txt |
 
 ## Chunking Strategy
 
-<!-- How will you split documents into chunks?
-     State your chunk size (in tokens or characters), overlap size, and explain why those
-     numbers fit the structure of your documents.
-     A review-heavy corpus warrants different chunking than a long FAQ. -->
+**Chunk size:** One review per chunk. If a review is longer than about 500 characters, split it into smaller chunks.
 
-**Chunk size:**
+**Overlap:** 100 characters for long reviews that need to be split.
 
-**Overlap:**
-
-**Reasoning:**
-
----
+**Reasoning:** My documents are mostly short professor reviews. Each review already includes the course, date, quality, difficulty, and student opinion, so keeping one review together makes the chunk easier to understand. If chunks are too small, the system may retrieve only a rating without the explanation. If chunks are too large, reviews about different professors or different classes may get mixed together.
 
 ## Retrieval Approach
 
-<!-- Which embedding model are you using (e.g., all-MiniLM-L6-v2 via sentence-transformers)?
-     How many chunks will you retrieve per query (top-k)?
-     If you were deploying this for real users and cost wasn't a constraint, what tradeoffs
-     would you weigh in choosing a different embedding model — context length, multilingual
-     support, accuracy on domain-specific text, latency? -->
+**Embedding model:** `all-MiniLM-L6-v2` using `sentence-transformers`.
 
-**Embedding model:**
+**Top-k:** 5 chunks per query.
 
-**Top-k:**
-
-**Production tradeoff reflection:**
-
----
+**Production tradeoff reflection:** For a real production system, I would compare embedding models based on accuracy, speed, cost, context length, multilingual support, and whether the model runs locally or uses an API. A local model is free and private, but a larger API model may understand harder or more detailed student questions better.
 
 ## Evaluation Plan
 
-<!-- List your 5 test questions with their expected correct answers.
-     Questions should be specific enough that you can judge whether the system's response
-     is right or wrong. "What are good dining halls?" is too vague.
-     "What do students say about wait times at [dining hall name] during lunch?" is testable. -->
-
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
-
----
+| 1 | What do students say about Professor Vaneet Singh’s grading and difficulty? | Students mostly say Professor Singh is lenient or fair, his work is straightforward, and the class is low difficulty if students follow instructions and attend. |
+| 2 | Which professor has reviews mentioning extra credit and clear explanations in math? | Jeffery Kroll has many reviews saying he explains math clearly, gives extra credit, and helps students understand. |
+| 3 | What do students say about Professor Roman Kezerashvili’s difficulty? | Reviews are mixed, but many students describe him as difficult, lecture-heavy, and hard to understand, while some say he is knowledgeable and good if students keep up. |
+| 4 | Which professor is described as caring and flexible in Economics? | Suela Aalsberg is described as caring, flexible, clear, and helpful, with easy or manageable assignments and exams. |
+| 5 | What do students say about Professor Mohammed Islam’s teaching style? | Reviews are mixed. Some students say he is clear, helpful, and good for robotics or EMT classes, while others say he can be unorganized, spends time on his phone, or makes students teach themselves. |
 
 ## Anticipated Challenges
 
-<!-- What could go wrong? Name at least two specific risks with reasoning.
-     Consider: noisy or inconsistent documents, missing source attribution, off-topic
-     retrieval, chunks that split key information across boundaries. -->
+1. Student reviews are subjective and sometimes contradict each other. A professor can have both very positive and very negative reviews, so the system needs to give balanced answers instead of only showing one side.
 
-1.
+2. Chunking could cause problems if a review is split badly. If the rating, course, and review text are separated, the system may retrieve incomplete context.
 
-2.
-
----
+3. Source attribution could be missed if metadata is not stored correctly. Every chunk needs the professor file name so answers can cite the source.
 
 ## Architecture
 
-<!-- Draw a diagram of your pipeline showing the five stages:
-     Document Ingestion → Chunking → Embedding + Vector Store → Retrieval → Generation
-     Label each stage with the tool or library you're using.
-     You can use ASCII art, a Mermaid diagram, or embed a sketch as an image.
-     You'll use this diagram as context when prompting AI tools to implement each stage. -->
+```mermaid
+flowchart LR
+    A[Document Ingestion: TXT files in documents folder] --> B[Chunking: split by review]
+    B --> C[Embedding: all-MiniLM-L6-v2]
+    C --> D[Vector Store: ChromaDB]
+    D --> E[Retrieval: top 5 chunks]
+    E --> F[Generation: Groq llama-3.3-70b-versatile]
 
----
+AI Tool Plan
 
-## AI Tool Plan
+Milestone 3 — Ingestion and chunking:
+I will use ChatGPT to help implement a script that loads all .txt files from the documents folder, cleans extra whitespace, and splits the text by review. I will give ChatGPT my Documents and Chunking Strategy sections. I will verify the output by printing 5 chunks and checking that each chunk is readable and includes the professor source.
 
-<!-- For each part of the pipeline below, describe:
-     - Which AI tool you plan to use (Claude, Copilot, ChatGPT, etc.)
-     - What you'll give it as input (which sections of this planning.md, which requirements)
-     - What you expect it to produce
-     - How you'll verify the output matches your spec
+Milestone 4 — Embedding and retrieval:
+I will use ChatGPT to help implement embeddings with all-MiniLM-L6-v2 and store chunks in ChromaDB with metadata. I will give ChatGPT my Retrieval Approach and Architecture sections. I will verify the output by testing at least 3 evaluation questions and checking that the returned chunks match the question.
 
-     "I'll use AI to help me code" is not a plan.
-     "I'll give Claude my Chunking Strategy section and ask it to implement chunk_text()
-     with my specified chunk size and overlap" is a plan. -->
-
-**Milestone 3 — Ingestion and chunking:**
-
-**Milestone 4 — Embedding and retrieval:**
-
-**Milestone 5 — Generation and interface:**
+Milestone 5 — Generation and interface:
+I will use ChatGPT to help write a grounded prompt and a simple interface. I will give ChatGPT my Evaluation Plan and grounding requirement. I will verify the output by asking one question that is covered by the documents and one question that is not covered. The system should cite sources for covered questions and refuse to answer unsupported questions.
