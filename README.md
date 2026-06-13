@@ -1,162 +1,112 @@
 # The Unofficial Guide — Project 1
 
-> **How to use this template:**
-> Complete each section *after* you've built and tested the corresponding part of your system.
-> Do not write placeholder text — if a section isn't done yet, leave it blank and come back.
-> Every section below is required for submission. One-liners will not receive full credit.
-
----
-
 ## Domain
 
-<!-- What topic or category of knowledge does your system cover?
-     Why is this knowledge valuable, and why is it hard to find through official channels?
-     Example: "Student reviews of CS professors at [university] — useful because official
-     course descriptions don't reflect teaching style, exam difficulty, or workload." -->
+My system covers unofficial student knowledge about CUNY City Tech professors. It allows students to search through professor reviews to learn about teaching style, grading practices, exam difficulty, homework workload, attendance expectations, extra credit opportunities, and how helpful professors are.
+
+This knowledge is valuable because official college resources only provide course descriptions and faculty names. They do not reflect students' actual classroom experiences. Students often rely on websites like Rate My Professors or advice from classmates to make informed decisions about course registration.
 
 ---
 
 ## Document Sources
 
-<!-- List every source you collected documents from.
-     Be specific: include URLs, subreddit names, forum thread titles, or file names.
-     Aim for variety — sources that together cover different subtopics or perspectives. -->
-
-| # | Source | Type | URL or file path |
-|---|--------|------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| #  | Source                       | Type      | URL or File Path             |
+| -- | ---------------------------- | --------- | ---------------------------- |
+| 1  | Boris Gelman Reviews         | Text File | boris_gelman.txt             |
+| 2  | Roman Kezerashvili Reviews   | Text File | roman_kezerashvili.txt       |
+| 3  | Vaneet Singh Reviews         | Text File | vaneet_singh.txt             |
+| 4  | Jeffery Kroll Reviews        | Text File | jeffery_kroll.txt            |
+| 5  | Suela Aalsberg Reviews       | Text File | suela_aalsberg.txt           |
+| 6  | Farrukh Zia Reviews          | Text File | farrukh_zia.txt              |
+| 7  | Sarah Schmerler Reviews      | Text File | sarah_schmerler.txt          |
+| 8  | Jared Day Reviews            | Text File | jared_day.txt                |
+| 9  | Ahmed Hassebo Reviews        | Text File | ahmed_hassebo.txt            |
+| 10 | Additional Professor Reviews | Text File | Other collected review files |
 
 ---
 
 ## Chunking Strategy
 
-<!-- Describe your chunking approach with enough specificity that someone else could reproduce it.
-     Include:
-     - Chunk size (characters or tokens) and why that size fits your documents
-     - Overlap size and why (or why not) you used overlap
-     - Any preprocessing you did before chunking (e.g., stripping HTML, removing headers)
-     - What your final chunk count was across all documents -->
+**Chunk size:** One complete review per chunk.
 
-**Chunk size:**
+**Overlap:** No overlap.
 
-**Overlap:**
+**Why these choices fit your documents:** The documents consisted of short professor reviews. Treating each review as a single chunk preserved complete opinions and avoided splitting important information across chunk boundaries. This made each chunk meaningful and retrievable on its own.
 
-**Why these choices fit your documents:**
-
-**Final chunk count:**
+**Final chunk count:** 162 chunks.
 
 ---
 
 ## Embedding Model
 
-<!-- Name the embedding model you used and explain your choice.
-     Then answer: if you were deploying this system for real users and cost wasn't a constraint,
-     what tradeoffs would you weigh in choosing a different model?
-     Consider: context length limits, multilingual support, accuracy on domain-specific text,
-     latency, and local vs. API-hosted. -->
+**Model used:** all-MiniLM-L6-v2 using Sentence Transformers.
 
-**Model used:**
-
-**Production tradeoff reflection:**
+**Production tradeoff reflection:** This model was chosen because it runs locally, requires no API key, and is efficient for small projects. For a production system, I would consider larger embedding models with better multilingual capabilities and higher retrieval accuracy, although they would increase computational cost and latency.
 
 ---
 
 ## Grounded Generation
 
-<!-- Explain how your system enforces grounding — how does it prevent the LLM from answering
-     beyond the retrieved documents?
-     Describe both your system prompt (what instruction you gave the model) and any structural
-     choices (e.g., how you formatted the context, whether you filtered low-relevance chunks).
-     Do not just say "I told it to use the documents" — show the actual instruction or explain
-     the mechanism. -->
-
 **System prompt grounding instruction:**
 
+The system prompt instructed the language model to answer only using the retrieved document context:
+
+"Use ONLY the context below. Do not use outside knowledge. If the context does not contain enough information, say: 'I don't have enough information in the documents to answer that.'"
+
 **How source attribution is surfaced in the response:**
+
+The retrieved source filenames were collected programmatically and returned alongside the generated answer so users could identify which documents supported the response.
 
 ---
 
 ## Evaluation Report
 
-<!-- Run your 5 test questions from planning.md through your system and record the results.
-     Be honest — a partially accurate or inaccurate result that you explain well is more
-     valuable than a suspiciously perfect result. -->
+| # | Question                                                        | Expected Answer                             | System Response (Summarized)                                                            | Retrieval Quality  | Response Accuracy |
+| - | --------------------------------------------------------------- | ------------------------------------------- | --------------------------------------------------------------------------------------- | ------------------ | ----------------- |
+| 1 | What do students say about Boris Gelman's grading?              | Lenient and fair grader.                    | Students described him as an easy grader and generous with grading.                     | Relevant           | Accurate          |
+| 2 | What do students say about Roman Kezerashvili's difficulty?     | Difficult, unclear, challenging.            | Students described him as difficult and hard to understand.                             | Relevant           | Accurate          |
+| 3 | What do students say about Jeffery Kroll's math teaching?       | Clear explanations and helpful instruction. | Students reported learning concepts clearly and succeeding through his explanations.    | Relevant           | Accurate          |
+| 4 | What do students say about Vaneet Singh's grading and homework? | Easy grading and manageable work.           | The system stated there was insufficient information despite relevant reviews existing. | Partially Relevant | Inaccurate        |
+| 5 | What is the first match of the 2026 FIFA World Cup?             | The system should refuse to answer.         | The system correctly stated it lacked enough information in the documents.              | Relevant           | Accurate          |
 
-| # | Question | Expected answer | System response (summarized) | Retrieval quality | Response accuracy |
-|---|----------|-----------------|------------------------------|-------------------|-------------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-
-**Retrieval quality:** Relevant / Partially relevant / Off-target  
-**Response accuracy:** Accurate / Partially accurate / Inaccurate
+Overall, the system answered 4 out of 5 evaluation questions accurately, resulting in an 80% accuracy rate.
 
 ---
 
 ## Failure Case Analysis
 
-<!-- Identify at least one question where retrieval or generation did not work as expected.
-     Write a specific explanation of *why* it failed, tied to a part of the pipeline.
+**Question that failed:** What do students say about Vaneet Singh's grading and homework?
 
-     "The answer was wrong" is not an explanation.
+**What the system returned:** The system responded that it did not have enough information to answer the question.
 
-     "The relevant information was split across a chunk boundary, so retrieval returned
-     only half the context — the model didn't have enough to answer correctly" is an explanation.
+**Root cause:** The retrieval stage returned unrelated reviews from other professors because the embedding model matched general educational terms such as "grading" and "homework" across multiple sources.
 
-     "The embedding model treated the professor's nickname as out-of-vocabulary and returned
-     results from an unrelated review" is an explanation. -->
-
-**Question that failed:**
-
-**What the system returned:**
-
-**Root cause (tied to a specific pipeline stage):**
-
-**What you would change to fix it:**
+**What you would change to fix it:** I would implement metadata filtering by professor name or combine semantic retrieval with keyword search to improve retrieval precision.
 
 ---
 
 ## Spec Reflection
 
-<!-- Reflect on how planning.md shaped your implementation.
-     Answer both questions with at least 2–3 sentences each. -->
+**One way the spec helped during implementation:**
 
-**One way the spec helped you during implementation:**
+The planning document forced me to think through my chunking strategy, retrieval design, evaluation plan, and architecture before writing code. This made debugging easier because each component had a clearly defined purpose.
 
-**One way your implementation diverged from the spec, and why:**
+**One way implementation diverged from the spec, and why:**
+
+During testing, retrieval occasionally returned unrelated professor reviews. Instead of assuming the system worked perfectly, I adjusted my evaluation and documented these limitations. This divergence highlighted the importance of iterative testing and honest reporting.
 
 ---
 
 ## AI Usage
 
-<!-- Describe at least 2 specific instances where you used an AI tool during this project.
-     For each: what did you give the AI as input, what did it produce, and what did you
-     change, override, or direct differently?
+### Instance 1
 
-     "I used Claude to help me code" is not sufficient.
-     "I gave Claude my Chunking Strategy section from planning.md and asked it to implement
-     chunk_text(). It returned a function using a fixed character split. I overrode the
-     chunk size from 500 to 200 because my documents are short reviews, not long guides." -->
+* What I gave the AI: My planning document, chunking strategy, and document descriptions.
+* What it produced: An ingestion and chunking pipeline implementation.
+* What I changed or overrode: I modified the implementation to preserve metadata including source filenames, review numbers, and chunk positions.
 
-**Instance 1**
+### Instance 2
 
-- *What I gave the AI:*
-- *What it produced:*
-- *What I changed or overrode:*
-
-**Instance 2**
-
-- *What I gave the AI:*
-- *What it produced:*
-- *What I changed or overrode:*
+* What I gave the AI: Retrieval requirements, generation requirements, and Gradio interface specifications.
+* What it produced: ChromaDB retrieval functions, Groq generation code, and a Gradio interface.
+* What I changed or overrode: I refined retrieval settings, improved grounding instructions, and documented retrieval failures instead of accepting the original implementation without testing.
