@@ -1,0 +1,69 @@
+Review 1
+Course: MAT2580
+Date: Jan 16, 2026
+Quality: 4.0
+Difficulty: 3.0
+I was always bad in math, but with Kroll I actually learned concepts and understood things the way he explained them. He goes at a pace that helps the whole class understand. His tests are similar to practice tests, and there are opportunities for extra credit.
+
+Review 2
+Course: MAT2680
+Date: Oct 9, 2025
+Quality: 5.0
+Difficulty: 1.0
+He is a great professor.
+
+Review 3
+Course: MAT2680
+Date: Aug 26, 2025
+Quality: 5.0
+Difficulty: 1.0
+The best professor ever. His teaching method is very clear.
+
+Review 4
+Course: MAT2680
+Date: Aug 8, 2025
+Quality: 5.0
+Difficulty: 1.0
+Definitely the best professor in the math department.
+
+Review 5
+Course: MAT2580
+Date: May 23, 2025
+Quality: 5.0
+Difficulty: 2.0
+Great professor.
+
+Review 6
+Course: MAT1575
+Date: Jan 23, 2025
+Quality: 5.0
+Difficulty: 2.0
+Best professor in the math department. Extremely knowledgeable and explains concepts from the basics. Offers test corrections and is accessible outside class.
+
+Review 7
+Course: MAT1475
+Date: Dec 27, 2024
+Quality: 5.0
+Difficulty: 3.0
+Very intelligent and makes difficult concepts easy to understand.
+
+Review 8
+Course: MAT2580
+Date: Dec 17, 2024
+Quality: 5.0
+Difficulty: 3.0
+Explains everything in detail and is willing to answer questions when students get lost.
+
+Review 9
+Course: MAT1475
+Date: Aug 9, 2024
+Quality: 5.0
+Difficulty: 1.0
+Amazing professor who thoroughly explains everything. Paying attention in class is enough to succeed.
+
+Review 10
+Course: MAT1475
+Date: Apr 15, 2024
+Quality: 5.0
+Difficulty: 4.0
+Explains himself well and wants students to pass. Offers opportunities for extra credit and encourages questions.

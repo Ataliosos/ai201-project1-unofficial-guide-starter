@@ -1,0 +1,125 @@
+Review 1
+Course: CET4711
+Date: Nov 3, 2024
+Quality: 5.0
+Difficulty: 1.0
+Prof Zia is very helpful and very professional.
+
+Review 2
+Course: CET4711
+Date: Dec 26, 2023
+Quality: 5.0
+Difficulty: 2.0
+Good professor. The labs are clear and have a very good guide on how to do them. You will be doing most stuff on your own time.
+
+Review 3
+Course: CET4711
+Date: Sep 14, 2023
+Quality: 5.0
+Difficulty: 3.0
+I had him during the summer and every day there was one lab or task due. Yet he was understanding and talked exactly about what needed to be done. He wants you to pass. He gives information about the real world and opportunities for CET students. He takes his time to explain things.
+
+Review 4
+Course: CET4711
+Date: Nov 16, 2020
+Quality: 5.0
+Difficulty: 3.0
+He's a good professor and very lenient. There are weekly multiple-choice quizzes based on labs, with an extra credit question on each quiz. He drops the two lowest quiz grades. Labs are not too difficult.
+
+Review 5
+Course: EMT1130
+Date: Dec 24, 2019
+Quality: 1.0
+Difficulty: 5.0
+Students were behind on the trainer box project because the process was not clearly explained. The lab packet alone was not enough guidance for beginners.
+
+Review 6
+Course: CET4711
+Date: Dec 21, 2018
+Quality: 5.0
+Difficulty: 1.0
+He is the easiest professor I have ever had. He knows the material very well and answers any questions. He gives a lot of extra credit. Highly recommended.
+
+Review 7
+Course: EMT2370
+Date: Jul 12, 2017
+Quality: 5.0
+Difficulty: 2.0
+The easiest professor you will ever get. Getting an A in his class is a piece of cake.
+
+Review 8
+Course: EMT1150
+Date: Dec 5, 2016
+Quality: 5.0
+Difficulty: 1.0
+Such a good person.
+
+Review 9
+Course: CET4811
+Date: Dec 31, 2015
+Quality: 3.5
+Difficulty: 1.0
+One of my favorites. His lectures tell you how to do everything he requires. He is a very easy grader. Students who do their work will do well. I learned a lot about Arduino and coding.
+
+Review 10
+Course: EMT1130
+Date: Nov 23, 2015
+Quality: 1.0
+Difficulty: 5.0
+Students were behind because the first four meetings focused only on safety. The class fell about a month behind schedule.
+
+Review 11
+Course: CET4711/CET4811
+Date: Nov 19, 2015
+Quality: 5.0
+Difficulty: 2.0
+Professor Zia provides all the materials needed and posts links for additional research. Labs are straightforward if students apply themselves. He gives short lectures before class to explain expectations.
+
+Review 12
+Course: EMT1130
+Date: Oct 26, 2015
+Quality: 4.0
+Difficulty: 2.0
+He is good, but his class progressed more slowly than others working on the trainer box project.
+
+Review 13
+Course: EMT1150
+Date: Dec 29, 2014
+Quality: 5.0
+Difficulty: 3.0
+He explains things very well and makes subjects easy to understand. Homework and quizzes follow every lesson. He even provided a free online textbook.
+
+Review 14
+Course: CET4711
+Date: Apr 24, 2014
+Quality: 5.0
+Difficulty: 1.0
+Easiest and nicest professor in the CET department. Gives good grades, answers emails quickly, and there is no final exam.
+
+Review 15
+Course: CET811
+Date: Jan 29, 2011
+Quality: 5.0
+Difficulty: 1.0
+The most laid-back professor you'll ever meet. One of the few truly good instructors in the CET department.
+
+Review 16
+Course: CET711
+Date: Jan 29, 2011
+Quality: 5.0
+Difficulty: 1.0
+Very boring, but extremely knowledgeable and fair. He helps students with practically anything. If you put in effort, you'll earn a great grade.
+
+Review 17
+Course: CET711
+Date: Jan 1, 2010
+Quality: 5.0
+Difficulty: 1.0
+Easy A class. Lectures can be boring, but the midterm and final report are simple.
+
+Review 18
+Course: EM864/EM811
+Date: Feb 6, 2006
+Quality: 4.5
+Difficulty: 1.0
+An easy professor who gives fair grades and is not strict. Boring at times, but generous with grades.
